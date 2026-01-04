@@ -1,9 +1,9 @@
-import { useState } from "react";
-import { Mail, Linkedin, Github, Send, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
+import { Github, Linkedin, Mail, MapPin, Send } from "lucide-react";
+import { useState } from "react";
 
 const contactLinks = [
   {
@@ -15,7 +15,7 @@ const contactLinks = [
   {
     icon: Linkedin,
     label: "LinkedIn",
-    value: "linkedin.com/in/S M Minhazul Islam",
+    value: "S M Minhazul Islam",
     href: "https://www.linkedin.com/in/riyammm/",
   },
   {
