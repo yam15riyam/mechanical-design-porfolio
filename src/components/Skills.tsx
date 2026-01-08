@@ -13,11 +13,16 @@ const skills: Skill[] = [
   { name: "Fusion 360", level: 90, category: "mechanical" },
   { name: "Keyshot", level: 88, category: "mechanical" },
   {
-    name: "Strength Calculations & Material Analysis",
-    level: 85,
+    name: "MS Excel",
+    level: 90,
     category: "mechanical",
   },
-  { name: "Piping System Design", level: 82, category: "mechanical" },
+    {
+    name: "Power BI",
+    level: 80,
+    category: "mechanical",
+  },
+
   // Digital / AI-ML Skills
   { name: "Python", level: 90, category: "digital" },
   { name: "JavaScript", level: 75, category: "digital" },
@@ -70,10 +75,10 @@ const Skills = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-foreground">
-                    Mechanical Design
+                    CAD & Production 
                   </h3>
                   <p className="text-sm text-muted-foreground">
-                    Primary expertise
+                    Primary software expertise
                   </p>
                 </div>
               </div>
@@ -89,7 +94,7 @@ const Skills = () => {
                   Tools & Software
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  {["AutoCAD", "SolidWorks", "Fusion 360", "Keyshot"].map(
+                  {["AutoCAD", "SolidWorks", "Excel", "Power BI",].map(
                     (tool) => (
                       <span
                         key={tool}
