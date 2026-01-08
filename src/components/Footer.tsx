@@ -18,7 +18,7 @@ const Footer = () => {
                   S M Minhazul Islam
                 </p>
                 <p className="text-xs text-muted-foreground">
-                  Mechanical Design Engineer
+                  Mechanical Engineer
                 </p>
               </div>
             </div>
