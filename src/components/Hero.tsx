@@ -68,7 +68,7 @@ const Hero = () => {
                   name: "CAD Specialist",
                 },
                 {
-                  name: "Product Designer",
+                  name: "Production Engineer",
                 },
                 {
                   name: "AI Developer",
