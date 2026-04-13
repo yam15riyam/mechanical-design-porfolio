@@ -5,6 +5,10 @@ import ProjectDetailModal, { Project } from "./ProjectDetailModal";
 import robot1 from "@/assets/robot1.jpg";
 import robot2 from "@/assets/robot2.png";
 import robot3 from "@/assets/robot3.png";
+import drone1 from "@/assets/drone-1.png";
+import drone2 from "@/assets/drone-2.png";
+import drone3 from "@/assets/drone-3.png";
+
 import stand1 from "@/assets/stand1.png";
 import stand2 from "@/assets/stand2.png";
 import stand3 from "@/assets/stand3.png";
@@ -22,6 +26,7 @@ import rimFusion2 from "@/assets/rim-fusion2.png";
 import sideStand from "@/assets/side-stand.png";
 import sideStand2 from "@/assets/side-stand2.png";
 import sideStand3 from "@/assets/side-stand3.png";
+import football from "@/assets/football.jpg";
 import fan360 from "@/assets/360-fan.png";
 import fan360Paper from "@/assets/360-fan-paper.png";
 import robotVehicle from "@/assets/robotvehicle.jpg";
@@ -39,7 +44,7 @@ const projects: Project[] = [{
   id: 2,
   title: "Drone Frame Design",
   description: "Designed and modeled a complete drone frame with focus on structural integrity, aerodynamics, and weight optimization for stable flight performance.",
-  images: ["https://minhazriyam.github.io/img/drone-1.png"],
+  images: [drone1, drone2, drone3],
   category: "cad",
   tools: ["Fusion 360", "CAD Modeling"],
   highlights: ["Aerodynamics", "3D Modeling", "Lightweight Design"]
@@ -63,7 +68,7 @@ const projects: Project[] = [{
   id: 7,
   title: "FIFA World Cup Dashboard (1930-2018)",
   description: "Comprehensive data analysis and visualization dashboard covering FIFA World Cup history from 1930 to 2018.",
-  images: ["https://minhazriyam.github.io/img/football.jpg"],
+  images: [football],
   category: "ai",
   tools: ["SQL", "Power BI"],
   highlights: ["SQL Analysis", "Data Visualization", "Historical Data"]
